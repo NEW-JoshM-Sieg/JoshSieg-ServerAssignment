@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Service Data Dashboard</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">◎</span>
+        <div>
+          <h1>Service Data Dashboard</h1>
+          <p class="sub">Searching local copies in <code>dataExports/</code> downloaded through official MCP servers</p>
+        </div>
+      </div>
+      <div class="stats" id="stats" aria-live="polite"></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <form class="search" id="search-form" role="search">
+      <label class="sr-only" for="q">Search</label>
+      <input id="q" type="search" autocomplete="off" placeholder='Search everything, e.g.  Dana Whitfield   or   "Holiday Blend"' autofocus>
+      <button type="submit">Search</button>
+    </form>
+
+    <div class="controls">
+      <div class="chips" id="chips" role="group" aria-label="Choose services to search"></div>
+      <label class="sort">Sort
+        <select id="sort">
+          <option value="relevance">Best match</option>
+          <option value="newest">Newest first</option>
+        </select>
+      </label>
+    </div>
+
+    <p class="summary" id="summary" aria-live="polite"></p>
+    <section class="results" id="results"></section>
+  </main>
+
+  <div class="drawer-backdrop" id="backdrop" hidden></div>
+  <aside class="drawer" id="drawer" aria-modal="true" role="dialog" aria-labelledby="d-title" hidden>
+    <div class="drawer-head">
+      <div id="d-badge"></div>
+      <button class="close" id="d-close" aria-label="Close">✕</button>
+    </div>
+    <h2 id="d-title"></h2>
+    <p class="d-sub" id="d-sub"></p>
+    <div class="d-links" id="d-links"></div>
+    <dl class="facts" id="d-facts"></dl>
+    <div id="d-sections"></div>
+    <details class="raw">
+      <summary>All stored metadata (metadata.json)</summary>
+      <pre id="d-raw"></pre>
+    </details>
+  </aside>
+
+  <script src="/app.js"></script>
+</body>
+</html>

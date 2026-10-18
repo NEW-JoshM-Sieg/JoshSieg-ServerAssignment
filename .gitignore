@@ -1,0 +1,27 @@
+# --- Secrets: never commit these ---
+.env
+.env.*
+*.pem
+*.key
+client_secret*.json
+credentials*.json
+token*.json
+.claude/settings.local.json
+.claude/.credentials.json
+
+# --- OS / editor clutter ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# --- Node ---
+node_modules/
+npm-debug.log*
+
+# --- Large raw video drafts (commit only the final export) ---
+presentation/drafts/
+
+# --- Temporary batch files written by the download skill ---
+.export-staging/
