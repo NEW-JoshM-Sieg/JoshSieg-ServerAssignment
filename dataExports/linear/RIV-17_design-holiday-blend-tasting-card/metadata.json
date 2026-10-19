@@ -1,0 +1,89 @@
+{
+  "issue_id": "3fe4270d-9954-4d5e-bde2-82c29212f2af",
+  "identifier": "RIV-17",
+  "title": "Design Holiday Blend tasting card",
+  "url": "https://linear.app/joshmathewsiegman/issue/RIV-17/design-holiday-blend-tasting-card",
+  "team": {
+    "name": "Riverstone",
+    "key": "RIV"
+  },
+  "project": "Holiday Blend",
+  "state": {
+    "name": "Todo",
+    "type": "unstarted"
+  },
+  "priority": 3,
+  "priority_label": "Medium",
+  "assignee": {
+    "name": "Joshua Mathew Siegman",
+    "email": null
+  },
+  "creator": {
+    "name": "Joshua Mathew Siegman",
+    "email": null
+  },
+  "labels": [],
+  "estimate": null,
+  "due_date": null,
+  "cycle": null,
+  "parent_identifier": null,
+  "created_at": "2026-10-19T19:23:33Z",
+  "updated_at": "2026-10-19T19:30:56Z",
+  "completed_at": null,
+  "extra": {
+    "git_branch_name": "joshmsiegman/riv-17-design-holiday-blend-tasting-card",
+    "archived_at": null,
+    "started_at": null,
+    "canceled_at": null,
+    "sla_started_at": null,
+    "sla_medium_risk_at": null,
+    "sla_high_risk_at": null,
+    "sla_breaches_at": null,
+    "attachments": [],
+    "documents": [],
+    "state_history": [
+      {
+        "state": {
+          "id": "b8707fb4-82e7-4c2c-acd1-84fcf70bc467",
+          "name": "Backlog",
+          "type": "backlog"
+        },
+        "startedAt": "2026-10-19T19:23:33.724Z",
+        "endedAt": "2026-10-19T19:30:56.855Z"
+      },
+      {
+        "state": {
+          "id": "ec56ea53-5453-4ba2-b604-22710b5bdfb6",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-19T19:30:56.855Z",
+        "endedAt": null
+      }
+    ],
+    "created_by_id": "6ebc05f2-e5a8-493f-9dee-666314a5f236",
+    "assignee_id": "6ebc05f2-e5a8-493f-9dee-666314a5f236",
+    "project_id": "34e68e28-82dc-46cb-a65d-2aa788da001c",
+    "team_id": "30a83ca7-4e6f-40ab-a54f-5be0967a1ff3",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    }
+  },
+  "_export": {
+    "schema_version": "1.1",
+    "service": "linear",
+    "source_id": "3fe4270d-9954-4d5e-bde2-82c29212f2af",
+    "first_exported_at": "2026-10-19T19:24:32Z",
+    "exported_at": "2026-10-19T19:31:58Z",
+    "export_run_id": "2026-10-19_19-33-00_linear",
+    "source_query": "Re-export of Linear issue RIV-17 after its project was set to Holiday Blend",
+    "mcp_server": "https://mcp.linear.app/mcp",
+    "mcp_tools_used": [
+      "get_issue",
+      "list_comments"
+    ]
+  }
+}

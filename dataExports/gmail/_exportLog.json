@@ -20,5 +20,19 @@
     "items_updated": [],
     "item_count": 10,
     "notes": "23 inbox messages matched; 10 saved. Skipped by user decision (security/login/OAuth/account notices): 1a1521fce0a4f23c \"Welcome to Claude. Let’s get you set up.\" from no-reply@email.claude.com; 1a15213bd68ea8df \"You shared some Google Account data with Claude\" from noreply-accounts@google.com; 1a150a9093838106 \"[GitHub] A personal access token (classic) has been added to your account\" from noreply@github.com; 1a15078c9cfeaf2f \"New login to Linear\" from security@updates.linear.app; 1a15078c172e41af \"You shared some Google Account data with Linear\" from noreply-accounts@google.com; 1a15076be9f1dcd9 \"Welcome to the Google Developer Program\" from googledev-noreply@google.com; 1a1506133b58ab88 \"A new device logged into your account\" from notify@updates.notion.com; 1a1505feea5f1c30 \"You shared some Google Account data with Notion\" from noreply-accounts@google.com; 1a1505e8440cf746 \"You shared some Google Account data with GitHub\" from noreply-accounts@google.com; 1a150518b934f734 \"Security alert\" from no-reply@accounts.google.com; 1a15054a8c2954f3 \"Security alert\" from no-reply@accounts.google.com; 1a1508b0ed092ab8 \"Security alert\" from no-reply@accounts.google.com; 1a1504fa06c47e3f \"Welcome to Google on your Windows\" from no-reply@google.com. Not inbox messages (user's own SENT replies), not exported: 1a15261cda3098c8, 1a152610f24fc035."
+  },
+  {
+    "export_run_id": "2026-10-19_19-24-32_gmail",
+    "started_at": "2026-10-19T19:24:32Z",
+    "finished_at": "2026-10-19T19:26:04Z",
+    "source_query": "Gmail messages with the INBOX label received after the previous export (2026-10-19T04:43:25Z), excluding account security, login and OAuth/sign-in notices",
+    "mcp_server": "claude.ai Gmail connector (Anthropic)",
+    "items_new": [
+      "2026-10-19_19-04-13_danawhitfield12321-at-gmail-dot-com_9ad2c75a",
+      "2026-10-19_19-12-45_team-at-mail-dot-notion-dot-so_0d635743"
+    ],
+    "items_updated": [],
+    "item_count": 2,
+    "notes": "Incremental run: 2 inbox messages matched since the previous export; both saved. No existing messages re-downloaded."
   }
 ]

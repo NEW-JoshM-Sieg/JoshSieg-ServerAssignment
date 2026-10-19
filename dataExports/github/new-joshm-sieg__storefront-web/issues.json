@@ -1,5 +1,24 @@
 [
   {
+    "number": 4,
+    "title": "Add gift message field to checkout",
+    "state": "OPEN",
+    "is_pull_request": false,
+    "author": {
+      "name": null,
+      "email": null,
+      "login": "NEW-JoshM-Sieg"
+    },
+    "labels": [],
+    "assignees": [],
+    "body": "Dana Whitfield asked for an optional gift message for Holiday Blend orders (max 200 characters), shown on the packing slip.",
+    "comments_count": null,
+    "created_at": "2026-10-19T19:08:13Z",
+    "updated_at": "2026-10-19T19:34:12Z",
+    "closed_at": null,
+    "html_url": "https://github.com/NEW-JoshM-Sieg/storefront-web/issues/4"
+  },
+  {
     "number": 3,
     "title": "Checkout: support local pickup if we choose it",
     "state": "OPEN",

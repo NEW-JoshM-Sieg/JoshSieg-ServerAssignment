@@ -20,5 +20,18 @@
     "items_updated": [],
     "item_count": 10,
     "notes": "Workspace keyword search returns nothing for a wildcard, so pages were enumerated from the sidebar listings. All 10 pages are top-level with no child pages or databases. fetch returns no created_time, created_by or last_edited_by."
+  },
+  {
+    "export_run_id": "2026-10-19_19-24-32_notion",
+    "started_at": "2026-10-19T19:24:32Z",
+    "finished_at": "2026-10-19T19:26:04Z",
+    "source_query": "Notion pages in workspace \"Riverstone Coffee\" visible to Joshua Mathew Siegman (Private and Shared sidebar sections) that are new or edited since the previous export (2026-10-19T04:43:26Z)",
+    "mcp_server": "https://mcp.notion.com/mcp",
+    "items_new": [
+      "holiday-blend-tasting-notes_3012bc23"
+    ],
+    "items_updated": [],
+    "item_count": 1,
+    "notes": "Incremental run: 11 pages listed in the Private section; all fetched. 1 new page (Holiday Blend Tasting Notes). The other 10 still have page_last_edited_at 2026-10-19T03:24:46Z, unchanged since the previous export, so they were not re-saved. The new page ends in an empty block, which was dropped."
   }
 ]

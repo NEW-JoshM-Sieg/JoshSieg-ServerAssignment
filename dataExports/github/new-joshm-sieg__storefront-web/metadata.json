@@ -17,7 +17,7 @@
   "stargazers_count": 0,
   "watchers_count": 0,
   "forks_count": 0,
-  "open_issues_count": 3,
+  "open_issues_count": 4,
   "is_fork": false,
   "is_archived": false,
   "readme_present": true,
@@ -46,17 +46,15 @@
     "service": "github",
     "source_id": "NEW-JoshM-Sieg/storefront-web",
     "first_exported_at": "2026-10-19T04:43:26Z",
-    "exported_at": "2026-10-19T05:00:09Z",
-    "export_run_id": "2026-10-19_04-43-26_github",
-    "source_query": "All GitHub repositories owned by NEW-JoshM-Sieg except JoshSieg-ServerAssignment, with README, all issues and pull requests (any state) and up to 20 recent commits on the default branch",
+    "exported_at": "2026-10-19T19:35:24Z",
+    "export_run_id": "2026-10-19_19-34-15_github",
+    "source_query": "GitHub repositories owned by NEW-JoshM-Sieg (except JoshSieg-ServerAssignment) with a push or an issue/PR created or updated since the previous export (2026-10-19T04:43:26Z), with README, all issues and pull requests and up to 20 recent commits",
     "mcp_server": "https://api.githubcopilot.com/mcp/",
     "mcp_tools_used": [
-      "get_me",
       "search_repositories",
-      "get_file_contents",
       "list_issues",
-      "list_pull_requests",
-      "list_commits"
+      "list_commits",
+      "get_file_contents"
     ]
   }
 }

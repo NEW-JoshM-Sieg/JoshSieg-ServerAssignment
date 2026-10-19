@@ -23,6 +23,23 @@ Work out, for each service the user mentioned (or all four if they said "each se
 If the user gave no limit, download every item the query matches, up to 25 per service,
 and say so in the summary.
 
+### Incremental runs ("new or updated since the last export")
+
+Take the cut-off from the `started_at` of the newest entry in each service's
+`_exportLog.json`. Re-export an item whenever *anything* stored in its folder changed after
+the cut-off, not just its top-level timestamp:
+
+* **Gmail:** inbox messages received after the cut-off (`after:<unix seconds>`).
+* **GitHub:** a repository's `pushed_at` only covers commits. Also run `list_issues` with
+  `since: <cut-off>` on every in-scope repository (and on any new repository the query
+  matches). A new or edited issue or pull request means the whole repository item is
+  re-exported, so `issues.json` stays complete. Check repositories the query excludes
+  too, and tell the user if their issues changed, because they will not be exported.
+* **Notion:** fetch every in-scope page and compare `page_last_edited_at` with the stored
+  `last_edited_time`.
+* **Linear:** `list_issues` with `updatedAt: <cut-off>`. Comments and project/state changes
+  bump `updatedAt`.
+
 ## Step 2. Check the MCP connections
 
 GitHub, Notion and Linear are configured in `.mcp.json`. Gmail comes from Anthropic's Gmail

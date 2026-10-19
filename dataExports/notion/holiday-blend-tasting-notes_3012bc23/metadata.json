@@ -1,0 +1,39 @@
+{
+  "page_id": "3fed126f-e795-800d-8aca-fb233012bc23",
+  "title": "Holiday Blend Tasting Notes",
+  "url": "https://app.notion.com/p/3fed126fe795800d8acafb233012bc23?pvs=204",
+  "object_type": "page",
+  "parent": {
+    "type": "workspace",
+    "id": "6ecd126f-e795-8154-8d4f-00034dac6c16",
+    "title": "Riverstone Coffee"
+  },
+  "icon": null,
+  "created_time": null,
+  "last_edited_time": "2026-10-19T19:21:58Z",
+  "created_by": null,
+  "last_edited_by": null,
+  "properties": {},
+  "child_pages": [],
+  "extra": {
+    "sidebar_section": "private",
+    "verification_state": "unverified",
+    "cover": null,
+    "icon_metadata": null,
+    "listed_title": "Holiday Blend Tasting Notes"
+  },
+  "_export": {
+    "schema_version": "1.1",
+    "service": "notion",
+    "source_id": "3fed126f-e795-800d-8aca-fb233012bc23",
+    "first_exported_at": "2026-10-19T19:24:32Z",
+    "exported_at": "2026-10-19T19:26:04Z",
+    "export_run_id": "2026-10-19_19-24-32_notion",
+    "source_query": "Notion pages in workspace \"Riverstone Coffee\" visible to Joshua Mathew Siegman (Private and Shared sidebar sections) that are new or edited since the previous export (2026-10-19T04:43:26Z)",
+    "mcp_server": "https://mcp.notion.com/mcp",
+    "mcp_tools_used": [
+      "notion-list-private-pages",
+      "notion-fetch"
+    ]
+  }
+}

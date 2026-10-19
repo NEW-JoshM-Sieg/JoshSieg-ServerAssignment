@@ -20,5 +20,18 @@
     "items_updated": [],
     "item_count": 10,
     "notes": "No repository has pull requests. The server returned no topics, license, homepage, owner type, issue comment counts or closed_at; issue html_url is built from the repo URL and issue number."
+  },
+  {
+    "export_run_id": "2026-10-19_19-34-15_github",
+    "started_at": "2026-10-19T19:34:15Z",
+    "finished_at": "2026-10-19T19:35:24Z",
+    "source_query": "GitHub repositories owned by NEW-JoshM-Sieg (except JoshSieg-ServerAssignment) with a push or an issue/PR created or updated since the previous export (2026-10-19T04:43:26Z), with README, all issues and pull requests and up to 20 recent commits",
+    "mcp_server": "https://api.githubcopilot.com/mcp/",
+    "items_new": [],
+    "items_updated": [
+      "new-joshm-sieg__storefront-web"
+    ],
+    "item_count": 1,
+    "notes": "Incremental run: list_issues with since on all 10 in-scope repos; only storefront-web changed (new issue #4 \"Add gift message field to checkout\", created in JoshSieg-ServerAssignment and moved here). No new pushes, so README and commits are unchanged (head d7f2da6, README blob 025f85e). No pull requests."
   }
 ]

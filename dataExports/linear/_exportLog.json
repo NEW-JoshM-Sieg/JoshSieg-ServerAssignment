@@ -22,5 +22,31 @@
     "items_updated": [],
     "item_count": 12,
     "notes": "Skipped archived onboarding issues by user decision: RIV-1 \"Get familiar with Linear\", RIV-3 \"Import your data\", RIV-2 \"Connect your tools\", RIV-4 \"Set up your teams\"."
+  },
+  {
+    "export_run_id": "2026-10-19_19-24-32_linear",
+    "started_at": "2026-10-19T19:24:32Z",
+    "finished_at": "2026-10-19T19:26:05Z",
+    "source_query": "Non-archived Linear issues in team Riverstone (RIV) created or updated since the previous export (2026-10-19T04:43:26Z)",
+    "mcp_server": "https://mcp.linear.app/mcp",
+    "items_new": [
+      "RIV-17_design-holiday-blend-tasting-card"
+    ],
+    "items_updated": [],
+    "item_count": 1,
+    "notes": "Incremental run: 1 issue updated after the previous export (RIV-17, new). get_issue returned no project for it."
+  },
+  {
+    "export_run_id": "2026-10-19_19-33-00_linear",
+    "started_at": "2026-10-19T19:33:00Z",
+    "finished_at": "2026-10-19T19:31:58Z",
+    "source_query": "Re-export of Linear issue RIV-17 after its project was set to Holiday Blend",
+    "mcp_server": "https://mcp.linear.app/mcp",
+    "items_new": [],
+    "items_updated": [
+      "RIV-17_design-holiday-blend-tasting-card"
+    ],
+    "item_count": 1,
+    "notes": "RIV-17 updated at 2026-10-19T19:30:56Z: project set to Holiday Blend, state moved from Backlog to Todo."
   }
 ]
