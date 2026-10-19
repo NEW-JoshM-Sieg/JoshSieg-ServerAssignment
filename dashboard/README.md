@@ -42,7 +42,10 @@ as you search again. There is no need to restart.
 * **Search rules.** Matching ignores case. Several words must all appear somewhere in the
   item (subject, body, README, issues, comments, page text or any metadata field). Use quotes
   for an exact phrase: `"Holiday Blend"`. An empty search lists everything.
-* **Sort** by best match (matches in titles rank highest) or newest first.
+* **Sort** by best match (matches in titles rank highest) or newest first. "Newest" uses
+  the received time for emails, the last-edited time for Notion pages, the updated time for
+  Linear issues, and for GitHub repositories the latest of the last push, the repository
+  update and any issue update (so a repo whose issue changed today counts as recent).
 * **Open any result** to see its full content (email body, README, issues and commits,
   Notion page, Linear description and comments), key facts, the complete stored
   `metadata.json`, the local folder it was read from, and a link back to the original item

@@ -30,7 +30,9 @@ function readJson(file, fallback) {
   if (t == null) return fallback;
   try { return JSON.parse(t); } catch { return fallback; }
 }
-const person = (p) => (!p ? '' : p.name && p.email ? `${p.name} <${p.email}>` : p.name || p.email || '');
+// GitHub people may carry only a login (spec 3.4), so fall back to it.
+const person = (p) => (!p ? '' : p.name && p.email ? `${p.name} <${p.email}>` : p.name || p.email || (p.login ? `@${p.login}` : ''));
+const latest = (...dates) => dates.filter(Boolean).sort().pop() || null;
 const people = (list) => (Array.isArray(list) ? list.map(person).filter(Boolean).join(', ') : '');
 
 // Flatten metadata to plain strings so every field is searchable.
@@ -67,15 +69,16 @@ const NORMALIZE = {
     return {
       title: m.full_name || m.name,
       subtitle: m.description || 'No description',
-      date: m.pushed_at || m.updated_at,
+      // Issue activity does not move pushed_at/updated_at, so include it in the item's date.
+      date: latest(m.pushed_at, m.updated_at, ...issues.map((i) => i.updated_at)),
       url: m.html_url,
       tags: [m.primary_language, m.visibility, ...(m.topics || [])].filter(Boolean),
       sections: [
         { label: 'README', text: readme || '(This repository has no README.)' },
-        { label: `Issues & pull requests (${issues.length})`, text: issues.map((i) => `#${i.number} [${i.state}] ${i.title}${i.body ? `\n    ${String(i.body).replace(/\n/g, '\n    ')}` : ''}`).join('\n\n') || 'None' },
+        { label: `Issues & pull requests (${issues.length})`, text: issues.map((i) => `#${i.number} [${i.state}] ${i.title}${person(i.author) ? ` (by ${person(i.author)})` : ''}${i.body ? `\n    ${String(i.body).replace(/\n/g, '\n    ')}` : ''}`).join('\n\n') || 'None' },
         { label: `Recent commits (${commits.length})`, text: commits.map((c) => `${String(c.sha || '').slice(0, 7)}  ${String(c.message || '').split('\n')[0]}  (${person(c.author)}, ${c.authored_at || ''})`).join('\n') || 'None' },
       ],
-      facts: [['Owner', m.owner && m.owner.login], ['Language', m.primary_language], ['Default branch', m.default_branch], ['Stars', m.stargazers_count], ['Open issues', m.open_issues_count], ['Created', m.created_at], ['Last push', m.pushed_at]],
+      facts: [['Owner', m.owner && m.owner.login], ['Language', m.primary_language], ['Default branch', m.default_branch], ['Stars', m.stargazers_count], ['Open issues', m.open_issues_count], ['Created', m.created_at], ['Last push', m.pushed_at], ['Last activity', latest(m.pushed_at, m.updated_at, ...issues.map((i) => i.updated_at))]],
     };
   },
   notion(m, dir) {
@@ -150,7 +153,8 @@ function parseQuery(q) {
 }
 
 function snippet(text, terms) {
-  const flat = String(text || '').replace(/\s+/g, ' ').trim();
+  // Drop invisible preheader filler (combining grapheme joiner, soft hyphen, zero-width chars) common in marketing emails.
+  const flat = String(text || '').replace(/[͏­​-‍⁠﻿]/g, '').replace(/\s+/g, ' ').trim();
   if (!flat) return '';
   const lower = flat.toLowerCase();
   let at = -1;
