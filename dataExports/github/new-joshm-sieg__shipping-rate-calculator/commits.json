@@ -1,0 +1,24 @@
+[
+  {
+    "sha": "ceefb4ab7af3968db823b8f88343f068014792b6",
+    "message": "Add shipping rate calculator",
+    "author": {
+      "name": "NEW-JoshM-Sieg",
+      "email": "joshmsiegman@gmail.com",
+      "login": "NEW-JoshM-Sieg"
+    },
+    "authored_at": "2026-10-19T03:40:14Z",
+    "html_url": "https://github.com/NEW-JoshM-Sieg/shipping-rate-calculator/commit/ceefb4ab7af3968db823b8f88343f068014792b6"
+  },
+  {
+    "sha": "3ef6ca1d1805402507639037fcee094bc62bb18e",
+    "message": "Initial commit",
+    "author": {
+      "name": "NEW-JoshM-Sieg",
+      "email": "joshmsiegman@gmail.com",
+      "login": "NEW-JoshM-Sieg"
+    },
+    "authored_at": "2026-10-19T03:38:45Z",
+    "html_url": "https://github.com/NEW-JoshM-Sieg/shipping-rate-calculator/commit/3ef6ca1d1805402507639037fcee094bc62bb18e"
+  }
+]

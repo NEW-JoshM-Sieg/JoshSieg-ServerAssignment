@@ -1,0 +1,62 @@
+{
+  "repo_id": 1425070241,
+  "name": "email-templates",
+  "full_name": "NEW-JoshM-Sieg/email-templates",
+  "owner": {
+    "login": "NEW-JoshM-Sieg",
+    "type": null
+  },
+  "description": "HTML email templates for Riverstone order confirmations and the storefront launch announcement.",
+  "html_url": "https://github.com/NEW-JoshM-Sieg/email-templates",
+  "visibility": "public",
+  "default_branch": "main",
+  "primary_language": "HTML",
+  "topics": [],
+  "license": null,
+  "homepage": null,
+  "stargazers_count": 0,
+  "watchers_count": 0,
+  "forks_count": 0,
+  "open_issues_count": 2,
+  "is_fork": false,
+  "is_archived": false,
+  "readme_present": true,
+  "created_at": "2026-10-19T03:38:48Z",
+  "updated_at": "2026-10-19T03:40:20Z",
+  "pushed_at": "2026-10-19T03:40:16Z",
+  "extra": {
+    "disabled": false,
+    "has_discussions": false,
+    "has_issues": true,
+    "has_projects": true,
+    "has_wiki": true,
+    "is_template": false,
+    "permissions": {
+      "admin": true,
+      "maintain": true,
+      "pull": true,
+      "push": true,
+      "triage": true
+    },
+    "private": false,
+    "size_kb": 2
+  },
+  "_export": {
+    "schema_version": "1.1",
+    "service": "github",
+    "source_id": "NEW-JoshM-Sieg/email-templates",
+    "first_exported_at": "2026-10-19T04:43:26Z",
+    "exported_at": "2026-10-19T05:00:09Z",
+    "export_run_id": "2026-10-19_04-43-26_github",
+    "source_query": "All GitHub repositories owned by NEW-JoshM-Sieg except JoshSieg-ServerAssignment, with README, all issues and pull requests (any state) and up to 20 recent commits on the default branch",
+    "mcp_server": "https://api.githubcopilot.com/mcp/",
+    "mcp_tools_used": [
+      "get_me",
+      "search_repositories",
+      "get_file_contents",
+      "list_issues",
+      "list_pull_requests",
+      "list_commits"
+    ]
+  }
+}

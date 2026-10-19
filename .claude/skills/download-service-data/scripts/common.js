@@ -1,7 +1,7 @@
-// Shared rules from localStorageFormats.md (schema 1.0). Used by export_helper.js and validate_exports.js.
+// Shared rules from localStorageFormats.md (schema 1.1). Used by export_helper.js and validate_exports.js.
 'use strict';
 
-const SCHEMA_VERSION = '1.0';
+const SCHEMA_VERSION = '1.1';
 const SERVICES = ['gmail', 'github', 'notion', 'linear'];
 
 const MCP_SERVERS = {
@@ -49,7 +49,7 @@ function folderName(service, m) {
       return `${part(owner)}__${part(repo)}`;
     }
     case 'notion':
-      return `${slug(m.title)}_${String(m.page_id).replace(/-/g, '').slice(0, 8).toLowerCase()}`;
+      return `${slug(m.title)}_${String(m.page_id).replace(/-/g, '').slice(-8).toLowerCase()}`;
     case 'linear':
       return `${m.identifier}_${slug(m.title)}`;
     default:

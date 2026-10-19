@@ -1,6 +1,6 @@
 # Local Storage Formats
 
-**Schema version:** `1.0`
+**Schema version:** `1.1`
 **Applies to:** everything under `dataExports/`
 **Enforced by:** the project skill `.claude/skills/download-service-data/` and its validator script
 
@@ -51,7 +51,7 @@ dataExports/
 │       └── commits.json
 ├── notion/
 │   ├── _exportLog.json
-│   └── holiday-blend-launch-plan_1f2e3d4c/
+│   └── holiday-blend-launch-plan_edf7ac4a/
 │       ├── metadata.json
 │       └── content.md
 └── linear/
@@ -86,8 +86,11 @@ Example: `Dana.Whitfield@gmail.com` → `dana-dot-whitfield-at-gmail-dot-com`
 ### 3.2 Short IDs
 
 Where a folder name needs a *short ID*, use the **last 8 characters** of the service's
-permanent ID for Gmail, and the **first 8 hexadecimal characters with dashes removed** for
-Notion. Short IDs make names unique even when two items have the same title.
+permanent ID for Gmail, and the **last 8 hexadecimal characters with dashes removed**
+(lowercase) for Notion. Short IDs make names unique even when two items have the same title.
+(Schema 1.0 used the *first* 8 hex characters for Notion, but page IDs in one Notion workspace
+share their leading characters, e.g. every page began `3fed126f`, so that rule gave no
+uniqueness.)
 
 ### 3.3 Dates and times
 
@@ -105,13 +108,14 @@ Notion. Short IDs make names unique even when two items have the same title.
 * A field that the service did not provide is written as `null` (or `[]` for lists). It is
   **never** silently left out, so every `metadata.json` for a service has the same shape.
 * People are always objects: `{ "name": "Dana Whitfield", "email": "dana.whitfield@gmail.com" }`.
-  Either property may be `null`.
+  Either property may be `null`. GitHub people additionally carry `"login"` (the GitHub
+  username); when GitHub gives only a login, `name` and `email` are `null`.
 
 ### 3.5 The `_export` block (required in every `metadata.json`)
 
 ```json
 "_export": {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "service": "gmail",
   "source_id": "18f3a9c2a1b2c3d4",
   "first_exported_at": "2026-10-18T18:30:00Z",
@@ -132,7 +136,7 @@ Notion. Short IDs make names unique even when two items have the same title.
 | `exported_at` | When this copy was written. Updated on every re-download. |
 | `export_run_id` | Ties the item to an entry in `_exportLog.json`. Format: `YYYY-MM-DD_HH-mm-ss_<service>` (UTC, start of run). |
 | `source_query` | The request, in plain words, that selected this item. |
-| `mcp_server` | URL of the official MCP server used. |
+| `mcp_server` | URL of the official MCP server used; for Gmail, the connector's name (`claude.ai Gmail connector (Anthropic)`), since it has no project-level URL. |
 | `mcp_tools_used` | Names of the MCP tools called to fetch this item. |
 
 ### 3.6 Re-downloads and duplicates
@@ -213,8 +217,14 @@ Sorting the folder alphabetically sorts emails by time received.
 | `attachments` | object[] | `{ "filename", "mime_type", "size_bytes" }`. Attachment files themselves are not downloaded, because the official server does not return their bytes; this is noted here so the absence is intentional. |
 | `size_estimate_bytes` | number | |
 | `web_url` | string | `https://mail.google.com/mail/u/0/#all/<thread_id>` |
-| `extra` | object | Any other fields the server returned. |
+| `extra` | object | Any other fields the server returned (e.g. `view_url`, `history_id`, `internal_date`). |
 | `_export` | object | See 3.5. |
+
+**What the connector does not return.** Anthropic's Gmail connector returns parsed fields, not raw
+headers: there is no `Date:` header (`date_raw` is `null`), no `Reply-To` (`reply_to` is `[]`),
+and senders and recipients are bare addresses (`name` is `null`). `received_at` comes from the
+message's `date`. Only messages carrying the `INBOX` label count as inbox messages; the user's own
+replies (label `SENT`) inside an inbox thread are not included unless asked for.
 
 ---
 
@@ -260,6 +270,13 @@ because both may contain single dashes), lowercased, e.g. `riverstone-dev__store
 | `extra` | object | |
 | `_export` | object | `source_id` is the `full_name`. |
 
+The official server has no single "get repository" tool; metadata comes from `search_repositories`
+(with `minimal_output: false`), which does not include `topics`, `license` or `homepage`, so those
+are `null`/`[]` unless another tool supplies them. Issue authors and assignees come as logins only.
+`list_issues` returns `state` in upper case (`OPEN`/`CLOSED`), which is kept as returned, and
+does not return `comments_count`, `closed_at` or the owner's `type` (these are `null`); an issue's
+`html_url` is built as `<repo html_url>/issues/<number>`.
+
 **`issues.json` element:** `{ "number", "title", "state", "is_pull_request", "author", "labels", "assignees", "body", "comments_count", "created_at", "updated_at", "closed_at", "html_url" }`
 
 **`commits.json` element:** `{ "sha", "message", "author", "authored_at", "html_url" }`
@@ -273,7 +290,8 @@ because both may contain single dashes), lowercased, e.g. `riverstone-dev__store
 **Item:** one page. A row of a Notion database is also a page and is stored the same way,
 with its column values in `properties` and its database recorded in `parent`.
 
-**Folder name:** `<title-slug>_<short-id>`, e.g. `holiday-blend-launch-plan_1f2e3d4c`.
+**Folder name:** `<title-slug>_<short-id>`, e.g. `holiday-blend-launch-plan_edf7ac4a`
+(short ID = last 8 hex characters of the page ID, section 3.2).
 
 **Files**
 
@@ -298,6 +316,12 @@ with its column values in `properties` and its database recorded in `parent`.
 | `child_pages` | object[] | `{ "id", "title" }` for direct child pages. |
 | `extra` | object | |
 | `_export` | object | |
+
+Notion's `fetch` returns page bodies in Notion-flavoured Markdown (`<table>`, `<callout>`,
+`<mention-date>` tags). These are converted to plain Markdown: tables to pipe tables, callouts to
+`>` quotes (keeping the emoji), date mentions to the date text. `title` is the page's title
+property without the icon emoji. `fetch` does not return `created_time`, `created_by` or
+`last_edited_by`; they are `null`. `last_edited_time` comes from `page_last_edited_at`.
 
 ---
 
@@ -338,8 +362,12 @@ The identifier (team key + number) is already unique and is kept in its original
 | `cycle` | string | Cycle name or number. |
 | `parent_identifier` | string | Parent issue, if a sub-issue. |
 | `created_at`, `updated_at`, `completed_at` | timestamp | |
-| `extra` | object | |
+| `extra` | object | e.g. `started_at`, `canceled_at`, `git_branch_name`, `attachments`, `relations`. |
 | `_export` | object | |
+
+Linear returns people by name only (`email` is `null`). Descriptions are saved verbatim,
+including Linear's own `<linear-image>` / `<linear-embed>` tags. Archived issues are not exported
+unless the request asks for them.
 
 ---
 
@@ -362,3 +390,11 @@ whose run IDs match its items. Every export must finish with zero errors.
 
 Change this document first, bump `schema_version`, then update the skill and the validator
 to match. Older items keep their old `schema_version` so a reader can tell them apart.
+
+### Changelog
+
+* **1.1** (2026-10-19): Notion short ID is now the *last* 8 hex characters of the page ID
+  (the first 8 were identical across a workspace). GitHub people may carry `login`.
+  Documented which fields each official server does not return, and that `mcp_server` for Gmail
+  is a connector name rather than a URL.
+* **1.0**: initial format.

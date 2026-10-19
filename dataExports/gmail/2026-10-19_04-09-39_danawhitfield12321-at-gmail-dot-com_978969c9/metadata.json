@@ -1,0 +1,49 @@
+{
+  "message_id": "1a1525a0978969c9",
+  "thread_id": "1a1525a0978969c9",
+  "subject": "Roaster maintenance scheduled Oct 24",
+  "from": {
+    "name": null,
+    "email": "danawhitfield12321@gmail.com"
+  },
+  "to": [
+    {
+      "name": null,
+      "email": "joshmsiegman@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [],
+  "date_raw": null,
+  "received_at": "2026-10-19T04:09:39Z",
+  "labels": [
+    "CATEGORY_PERSONAL",
+    "INBOX"
+  ],
+  "snippet": "Hi, Quick heads-up: the technician is coming on Saturday, October 24 to service the roaster (chaff collector cleaning and burner inspection). No roasting that day, so I&#39;ll move the Saturday batch",
+  "is_unread": false,
+  "has_attachments": false,
+  "attachments": [],
+  "size_estimate_bytes": 7762,
+  "web_url": "https://mail.google.com/mail/u/0/#all/1a1525a0978969c9",
+  "extra": {
+    "history_id": "3551",
+    "internal_date": "1792382979000",
+    "view_url": "https://mail.google.com/mail/?authuser=joshmsiegman@gmail.com#all/thread-f:1879449791164410313|msg-f:1879449791164410313"
+  },
+  "_export": {
+    "schema_version": "1.1",
+    "service": "gmail",
+    "source_id": "1a1525a0978969c9",
+    "first_exported_at": "2026-10-19T04:43:25Z",
+    "exported_at": "2026-10-19T05:00:51Z",
+    "export_run_id": "2026-10-19_04-43-25_gmail",
+    "source_query": "Gmail messages with the INBOX label received after 2026-10-12 (last 7 days), excluding account security, login and OAuth/sign-in notices (user decision)",
+    "mcp_server": "claude.ai Gmail connector (Anthropic)",
+    "mcp_tools_used": [
+      "search_threads",
+      "get_message"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "sha": "d7f2da65c15b4fc4a264c5b9d74d3b485203264e",
+    "message": "Add storefront README, product catalog and variant pricing",
+    "author": {
+      "name": "NEW-JoshM-Sieg",
+      "email": "joshmsiegman@gmail.com",
+      "login": "NEW-JoshM-Sieg"
+    },
+    "authored_at": "2026-10-19T03:40:05Z",
+    "html_url": "https://github.com/NEW-JoshM-Sieg/storefront-web/commit/d7f2da65c15b4fc4a264c5b9d74d3b485203264e"
+  },
+  {
+    "sha": "120e61bbfa5d1f741a713009bedac2102a14af0d",
+    "message": "Initial commit",
+    "author": {
+      "name": "NEW-JoshM-Sieg",
+      "email": "joshmsiegman@gmail.com",
+      "login": "NEW-JoshM-Sieg"
+    },
+    "authored_at": "2026-10-19T03:38:26Z",
+    "html_url": "https://github.com/NEW-JoshM-Sieg/storefront-web/commit/120e61bbfa5d1f741a713009bedac2102a14af0d"
+  }
+]

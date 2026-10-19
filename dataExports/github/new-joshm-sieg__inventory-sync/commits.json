@@ -1,0 +1,24 @@
+[
+  {
+    "sha": "37c62b5324e64fa8580c0de054aa392e8f5aaf1f",
+    "message": "Add inventory sync script and sample shipment",
+    "author": {
+      "name": "NEW-JoshM-Sieg",
+      "email": "joshmsiegman@gmail.com",
+      "login": "NEW-JoshM-Sieg"
+    },
+    "authored_at": "2026-10-19T03:40:09Z",
+    "html_url": "https://github.com/NEW-JoshM-Sieg/inventory-sync/commit/37c62b5324e64fa8580c0de054aa392e8f5aaf1f"
+  },
+  {
+    "sha": "3a96124989275edf08bf290a1f9273d66117e205",
+    "message": "Initial commit",
+    "author": {
+      "name": "NEW-JoshM-Sieg",
+      "email": "joshmsiegman@gmail.com",
+      "login": "NEW-JoshM-Sieg"
+    },
+    "authored_at": "2026-10-19T03:38:34Z",
+    "html_url": "https://github.com/NEW-JoshM-Sieg/inventory-sync/commit/3a96124989275edf08bf290a1f9273d66117e205"
+  }
+]

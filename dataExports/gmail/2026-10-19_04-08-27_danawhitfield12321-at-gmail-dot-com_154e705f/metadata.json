@@ -1,0 +1,49 @@
+{
+  "message_id": "1a15258e154e705f",
+  "thread_id": "1a15258e154e705f",
+  "subject": "Storefront checkout - Marcus needs a decision",
+  "from": {
+    "name": null,
+    "email": "danawhitfield12321@gmail.com"
+  },
+  "to": [
+    {
+      "name": null,
+      "email": "joshmsiegman@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [],
+  "date_raw": null,
+  "received_at": "2026-10-19T04:08:27Z",
+  "labels": [
+    "CATEGORY_PERSONAL",
+    "INBOX"
+  ],
+  "snippet": "Hey, Marcus Lee says the storefront checkout is ready except for one choice: do we offer local pickup at the roastery, or shipping only? Pickup means he has to add a pickup-time picker, about two extra",
+  "is_unread": false,
+  "has_attachments": false,
+  "attachments": [],
+  "size_estimate_bytes": 7837,
+  "web_url": "https://mail.google.com/mail/u/0/#all/1a15258e154e705f",
+  "extra": {
+    "history_id": "4029",
+    "internal_date": "1792382907000",
+    "view_url": "https://mail.google.com/mail/?authuser=joshmsiegman@gmail.com#all/thread-f:1879449711670095967|msg-f:1879449711670095967"
+  },
+  "_export": {
+    "schema_version": "1.1",
+    "service": "gmail",
+    "source_id": "1a15258e154e705f",
+    "first_exported_at": "2026-10-19T04:43:25Z",
+    "exported_at": "2026-10-19T05:00:51Z",
+    "export_run_id": "2026-10-19_04-43-25_gmail",
+    "source_query": "Gmail messages with the INBOX label received after 2026-10-12 (last 7 days), excluding account security, login and OAuth/sign-in notices (user decision)",
+    "mcp_server": "claude.ai Gmail connector (Anthropic)",
+    "mcp_tools_used": [
+      "search_threads",
+      "get_message"
+    ]
+  }
+}

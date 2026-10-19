@@ -1,0 +1,45 @@
+{
+  "page_id": "3fed126f-e795-8100-9c6a-d1d3e7946371",
+  "title": "Weekly Ops Meeting - Oct 6",
+  "url": "https://app.notion.com/p/3fed126fe79581009c6ad1d3e7946371?pvs=204",
+  "object_type": "page",
+  "parent": {
+    "type": "workspace",
+    "id": "6ecd126f-e795-8154-8d4f-00034dac6c16",
+    "title": "Riverstone Coffee"
+  },
+  "icon": "📋",
+  "created_time": null,
+  "last_edited_time": "2026-10-19T03:24:46Z",
+  "created_by": null,
+  "last_edited_by": null,
+  "properties": {},
+  "child_pages": [],
+  "extra": {
+    "sidebar_section": "private",
+    "verification_state": "unverified",
+    "cover": null,
+    "icon_metadata": {
+      "type": "emoji",
+      "emoji": "📋"
+    },
+    "listed_title": "Weekly Ops Meeting - Oct 6"
+  },
+  "_export": {
+    "schema_version": "1.1",
+    "service": "notion",
+    "source_id": "3fed126f-e795-8100-9c6a-d1d3e7946371",
+    "first_exported_at": "2026-10-19T04:43:26Z",
+    "exported_at": "2026-10-19T05:00:09Z",
+    "export_run_id": "2026-10-19_04-43-26_notion",
+    "source_query": "Every Notion page in workspace \"Riverstone Coffee\" visible to Joshua Mathew Siegman (Private and Shared sidebar sections; shared was empty)",
+    "mcp_server": "https://mcp.notion.com/mcp",
+    "mcp_tools_used": [
+      "notion-search",
+      "notion-get-self",
+      "notion-list-private-pages",
+      "notion-list-shared-pages",
+      "notion-fetch"
+    ]
+  }
+}

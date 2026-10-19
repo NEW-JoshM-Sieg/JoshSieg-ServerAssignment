@@ -1,0 +1,40 @@
+[
+  {
+    "number": 2,
+    "title": "Record green coffee lot number with each roast",
+    "state": "OPEN",
+    "is_pull_request": false,
+    "author": {
+      "name": null,
+      "email": null,
+      "login": "NEW-JoshM-Sieg"
+    },
+    "labels": [],
+    "assignees": [],
+    "body": "Highland Imports (Tom Becker) is shipping the new Ethiopia Yirgacheffe and Colombia Huila lots on Oct 28. Add an optional `--lot` argument so each roast log records which lot it came from. That way we can trace any flavor change back to the shipment.",
+    "comments_count": null,
+    "created_at": "2026-10-19T03:23:35Z",
+    "updated_at": "2026-10-19T03:23:35Z",
+    "closed_at": null,
+    "html_url": "https://github.com/NEW-JoshM-Sieg/roast-profile-logger/issues/2"
+  },
+  {
+    "number": 1,
+    "title": "Export a side-by-side chart of profiles A, B and C",
+    "state": "OPEN",
+    "is_pull_request": false,
+    "author": {
+      "name": null,
+      "email": null,
+      "login": "NEW-JoshM-Sieg"
+    },
+    "labels": [],
+    "assignees": [],
+    "body": "For the Holiday Blend tests we compared profiles A, B and C by eye from the CSVs. It would help to have a `compare.py` that plots bean temperature over time for several logs on one chart.\n\nDana Whitfield wants to show the chart at the next weekly ops meeting to explain why profile B (light-medium, 11:30 total) won.",
+    "comments_count": null,
+    "created_at": "2026-10-19T03:23:34Z",
+    "updated_at": "2026-10-19T03:23:34Z",
+    "closed_at": null,
+    "html_url": "https://github.com/NEW-JoshM-Sieg/roast-profile-logger/issues/1"
+  }
+]

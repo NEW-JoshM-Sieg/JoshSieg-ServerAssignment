@@ -1,0 +1,50 @@
+{
+  "message_id": "1a150791be91e3f9",
+  "thread_id": "1a150791be91e3f9",
+  "subject": "Welcome to Linear",
+  "from": {
+    "name": null,
+    "email": "hello@updates.linear.app"
+  },
+  "to": [
+    {
+      "name": null,
+      "email": "joshmsiegman@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [],
+  "date_raw": null,
+  "received_at": "2026-10-18T19:24:35Z",
+  "labels": [
+    "UNREAD",
+    "CATEGORY_UPDATES",
+    "INBOX"
+  ],
+  "snippet": "Let&#39;s get you up to speed ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+  "is_unread": true,
+  "has_attachments": false,
+  "attachments": [],
+  "size_estimate_bytes": 55627,
+  "web_url": "https://mail.google.com/mail/u/0/#all/1a150791be91e3f9",
+  "extra": {
+    "history_id": "2573",
+    "internal_date": "1792351475000",
+    "view_url": "https://mail.google.com/mail/?authuser=joshmsiegman@gmail.com#all/thread-f:1879416742045934585|msg-f:1879416742045934585"
+  },
+  "_export": {
+    "schema_version": "1.1",
+    "service": "gmail",
+    "source_id": "1a150791be91e3f9",
+    "first_exported_at": "2026-10-19T04:43:25Z",
+    "exported_at": "2026-10-19T05:00:51Z",
+    "export_run_id": "2026-10-19_04-43-25_gmail",
+    "source_query": "Gmail messages with the INBOX label received after 2026-10-12 (last 7 days), excluding account security, login and OAuth/sign-in notices (user decision)",
+    "mcp_server": "claude.ai Gmail connector (Anthropic)",
+    "mcp_tools_used": [
+      "search_threads",
+      "get_message"
+    ]
+  }
+}

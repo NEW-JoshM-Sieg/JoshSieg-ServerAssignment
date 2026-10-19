@@ -1,0 +1,49 @@
+{
+  "message_id": "1a15259a04b35f0c",
+  "thread_id": "1a15259a04b35f0c",
+  "subject": "Corner Table Cafe wants to increase their wholesale order",
+  "from": {
+    "name": null,
+    "email": "danawhitfield12321@gmail.com"
+  },
+  "to": [
+    {
+      "name": null,
+      "email": "joshmsiegman@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [],
+  "date_raw": null,
+  "received_at": "2026-10-19T04:09:15Z",
+  "labels": [
+    "CATEGORY_PERSONAL",
+    "INBOX"
+  ],
+  "snippet": "Hi, Elena Ortiz from Corner Table Café called. They want to go from 10 lb to 20 lb of house espresso every two weeks starting in November, and asked whether they can get the Holiday Blend for December",
+  "is_unread": false,
+  "has_attachments": false,
+  "attachments": [],
+  "size_estimate_bytes": 7937,
+  "web_url": "https://mail.google.com/mail/u/0/#all/1a15259a04b35f0c",
+  "extra": {
+    "history_id": "3550",
+    "internal_date": "1792382955000",
+    "view_url": "https://mail.google.com/mail/?authuser=joshmsiegman@gmail.com#all/thread-f:1879449762931105548|msg-f:1879449762931105548"
+  },
+  "_export": {
+    "schema_version": "1.1",
+    "service": "gmail",
+    "source_id": "1a15259a04b35f0c",
+    "first_exported_at": "2026-10-19T04:43:25Z",
+    "exported_at": "2026-10-19T05:00:51Z",
+    "export_run_id": "2026-10-19_04-43-25_gmail",
+    "source_query": "Gmail messages with the INBOX label received after 2026-10-12 (last 7 days), excluding account security, login and OAuth/sign-in notices (user decision)",
+    "mcp_server": "claude.ai Gmail connector (Anthropic)",
+    "mcp_tools_used": [
+      "search_threads",
+      "get_message"
+    ]
+  }
+}

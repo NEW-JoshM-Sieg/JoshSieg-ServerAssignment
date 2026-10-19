@@ -1,0 +1,59 @@
+[
+  {
+    "number": 3,
+    "title": "Checkout: support local pickup if we choose it",
+    "state": "OPEN",
+    "is_pull_request": false,
+    "author": {
+      "name": null,
+      "email": null,
+      "login": "NEW-JoshM-Sieg"
+    },
+    "labels": [],
+    "assignees": [],
+    "body": "We're still deciding on local pickup at the roastery vs shipping only (Linear RIV-5, due Thursday). If we pick pickup, checkout needs a pickup-time picker (Fri/Sat 10:00-14:00 slots), which is about 2 days of work. This issue is on hold until the decision is made.",
+    "comments_count": null,
+    "created_at": "2026-10-19T03:40:26Z",
+    "updated_at": "2026-10-19T03:40:26Z",
+    "closed_at": null,
+    "html_url": "https://github.com/NEW-JoshM-Sieg/storefront-web/issues/3"
+  },
+  {
+    "number": 2,
+    "title": "Add Holiday Blend product page",
+    "state": "OPEN",
+    "is_pull_request": false,
+    "author": {
+      "name": null,
+      "email": null,
+      "login": "NEW-JoshM-Sieg"
+    },
+    "labels": [],
+    "assignees": [],
+    "body": "Product page for the limited Holiday Blend (Ethiopia Yirgacheffe + Colombia Huila, roast profile B):\n\n- [ ] Description (use the example in the Brand Voice Guide)\n- [ ] Label art from Priya Raman (red vs navy, pick pending)\n- [ ] Tasting notes: blueberry, jasmine, caramel\n- [ ] Grind options: whole bean, drip, espresso (needs the $0.00 fix first)\n- [ ] Link to the pour-over guide from brew-guides\n- [ ] \"Limited, through December\" badge\n\nDue before the Nov 10 launch.",
+    "comments_count": null,
+    "created_at": "2026-10-19T03:40:25Z",
+    "updated_at": "2026-10-19T03:40:25Z",
+    "closed_at": null,
+    "html_url": "https://github.com/NEW-JoshM-Sieg/storefront-web/issues/2"
+  },
+  {
+    "number": 1,
+    "title": "Price shows $0.00 when grind is set to espresso",
+    "state": "OPEN",
+    "is_pull_request": false,
+    "author": {
+      "name": null,
+      "email": null,
+      "login": "NEW-JoshM-Sieg"
+    },
+    "labels": [],
+    "assignees": [],
+    "body": "**Reported by Dana Whitfield**\n\nSteps to reproduce on the storefront test site:\n1. Add the Holiday Blend (12 oz) to the cart.\n2. Change the grind to \"espresso\".\n3. The line price drops to **$0.00**.\n\nExpected: $19.00, the same as the other grinds.\n\nCause (Marcus Lee): the `espresso` variant of `holiday-blend` in `src/data/products.json` has no `price`. `priceFor()` in `src/pricing.js` then falls back to `0` instead of throwing. Fix: add the price, and make a variant without a price an error so this can't happen silently again.\n\nTracked in Linear as RIV-6. It blocks the Nov 10 launch.",
+    "comments_count": null,
+    "created_at": "2026-10-19T03:40:22Z",
+    "updated_at": "2026-10-19T03:40:22Z",
+    "closed_at": null,
+    "html_url": "https://github.com/NEW-JoshM-Sieg/storefront-web/issues/1"
+  }
+]

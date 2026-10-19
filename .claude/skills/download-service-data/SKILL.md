@@ -56,7 +56,13 @@ metadata fields in the spec can be filled:
 * **Notion:** page properties, parent, timestamps, authors, and the full page body. Convert
   the body to Markdown as described in spec section 6.
 * **Linear:** issue details including team, project, state, priority, assignee, labels,
-  due date, and all comments.
+  due date, and all comments. Skip archived issues unless asked.
+
+The spec lists, per service, which fields the official servers do not return (for example
+Gmail has no raw `Date:` header and Notion `fetch` has no author fields). Leave those out;
+do not reconstruct them. Notion bodies must be converted from Notion-flavoured Markdown to
+plain Markdown (spec section 6). Claude Code saves large MCP results to a `tool-results/` file;
+build batch files from those with a script rather than retyping them.
 
 Never invent values. If the server does not provide a field, leave it out of your batch;
 the helper fills it with `null` / `[]` / `{}` as the spec requires. Put any additional
@@ -102,7 +108,7 @@ Field names and file names must be exactly those in `localStorageFormats.md`:
 | linear | `description.md`, `comments.json` |
 
 JSON content files (`issues.json`, `commits.json`, `comments.json`) are given as arrays,
-not strings. People are always `{ "name", "email" }` objects. Timestamps may be in any
+not strings. People are always `{ "name", "email" }` objects (GitHub people also get `"login"`). Timestamps may be in any
 parseable form; the helper converts them to ISO 8601 UTC.
 
 Large exports can be split into several batch files per service; give them the same

@@ -1,0 +1,3 @@
+# Exported email HTML must stay byte-for-byte as received (localStorageFormats.md section 4),
+# so Git must not convert its line endings.
+dataExports/**/body.html -text

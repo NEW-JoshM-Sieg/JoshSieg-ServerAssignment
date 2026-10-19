@@ -1,0 +1,80 @@
+{
+  "issue_id": "edcee278-2ecd-4dc7-8093-58cdf05566d1",
+  "identifier": "RIV-10",
+  "title": "Order 12 oz bags",
+  "url": "https://linear.app/joshmathewsiegman/issue/RIV-10/order-12-oz-bags",
+  "team": {
+    "name": "Riverstone",
+    "key": "RIV"
+  },
+  "project": "Holiday Blend",
+  "state": {
+    "name": "In Progress",
+    "type": "started"
+  },
+  "priority": 2,
+  "priority_label": "High",
+  "assignee": null,
+  "creator": {
+    "name": "Joshua Mathew Siegman",
+    "email": null
+  },
+  "labels": [
+    "operations"
+  ],
+  "estimate": null,
+  "due_date": "2026-10-27",
+  "cycle": null,
+  "parent_identifier": null,
+  "created_at": "2026-10-19T03:25:57Z",
+  "updated_at": "2026-10-19T03:25:57Z",
+  "completed_at": null,
+  "extra": {
+    "git_branch_name": "joshmsiegman/riv-10-order-12-oz-bags",
+    "archived_at": null,
+    "started_at": "2026-10-19T03:25:57.454Z",
+    "canceled_at": null,
+    "sla_started_at": null,
+    "sla_medium_risk_at": null,
+    "sla_high_risk_at": null,
+    "sla_breaches_at": null,
+    "attachments": [],
+    "documents": [],
+    "state_history": [
+      {
+        "state": {
+          "id": "6b9b68c9-c2f3-4696-8671-3e6bc61482b5",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-10-19T03:25:57.336Z",
+        "endedAt": null
+      }
+    ],
+    "created_by_id": "6ebc05f2-e5a8-493f-9dee-666314a5f236",
+    "project_id": "34e68e28-82dc-46cb-a65d-2aa788da001c",
+    "team_id": "30a83ca7-4e6f-40ab-a54f-5be0967a1ff3",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    }
+  },
+  "_export": {
+    "schema_version": "1.1",
+    "service": "linear",
+    "source_id": "edcee278-2ecd-4dc7-8093-58cdf05566d1",
+    "first_exported_at": "2026-10-19T04:43:26Z",
+    "exported_at": "2026-10-19T05:00:09Z",
+    "export_run_id": "2026-10-19_04-43-26_linear",
+    "source_query": "All non-archived Linear issues in team Riverstone (RIV), any state",
+    "mcp_server": "https://mcp.linear.app/mcp",
+    "mcp_tools_used": [
+      "list_teams",
+      "list_issues",
+      "get_issue",
+      "list_comments"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+Hey,
+
+Marcus Lee says the storefront checkout is ready except for one choice: do
+we offer local pickup at the roastery, or shipping only? Pickup means he
+has to add a pickup-time picker, about two extra days of work.
+
+He's tracking it in Linear. Can you weigh in by Thursday so he can keep the
+November 10 launch date?
+
+Dana

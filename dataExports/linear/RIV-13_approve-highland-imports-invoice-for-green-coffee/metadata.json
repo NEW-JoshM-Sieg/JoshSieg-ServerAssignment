@@ -1,0 +1,80 @@
+{
+  "issue_id": "99f00d97-b22f-41e7-b57d-bd1a66cc828b",
+  "identifier": "RIV-13",
+  "title": "Approve Highland Imports invoice for green coffee",
+  "url": "https://linear.app/joshmathewsiegman/issue/RIV-13/approve-highland-imports-invoice-for-green-coffee",
+  "team": {
+    "name": "Riverstone",
+    "key": "RIV"
+  },
+  "project": "Holiday Blend",
+  "state": {
+    "name": "Todo",
+    "type": "unstarted"
+  },
+  "priority": 3,
+  "priority_label": "Medium",
+  "assignee": null,
+  "creator": {
+    "name": "Joshua Mathew Siegman",
+    "email": null
+  },
+  "labels": [
+    "operations"
+  ],
+  "estimate": null,
+  "due_date": "2026-11-04",
+  "cycle": null,
+  "parent_identifier": null,
+  "created_at": "2026-10-19T03:26:01Z",
+  "updated_at": "2026-10-19T03:26:01Z",
+  "completed_at": null,
+  "extra": {
+    "git_branch_name": "joshmsiegman/riv-13-approve-highland-imports-invoice-for-green-coffee",
+    "archived_at": null,
+    "started_at": null,
+    "canceled_at": null,
+    "sla_started_at": null,
+    "sla_medium_risk_at": null,
+    "sla_high_risk_at": null,
+    "sla_breaches_at": null,
+    "attachments": [],
+    "documents": [],
+    "state_history": [
+      {
+        "state": {
+          "id": "ec56ea53-5453-4ba2-b604-22710b5bdfb6",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-19T03:26:01.420Z",
+        "endedAt": null
+      }
+    ],
+    "created_by_id": "6ebc05f2-e5a8-493f-9dee-666314a5f236",
+    "project_id": "34e68e28-82dc-46cb-a65d-2aa788da001c",
+    "team_id": "30a83ca7-4e6f-40ab-a54f-5be0967a1ff3",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    }
+  },
+  "_export": {
+    "schema_version": "1.1",
+    "service": "linear",
+    "source_id": "99f00d97-b22f-41e7-b57d-bd1a66cc828b",
+    "first_exported_at": "2026-10-19T04:43:26Z",
+    "exported_at": "2026-10-19T05:00:09Z",
+    "export_run_id": "2026-10-19_04-43-26_linear",
+    "source_query": "All non-archived Linear issues in team Riverstone (RIV), any state",
+    "mcp_server": "https://mcp.linear.app/mcp",
+    "mcp_tools_used": [
+      "list_teams",
+      "list_issues",
+      "get_issue",
+      "list_comments"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "export_run_id": "2026-10-19_04-43-26_notion",
+    "started_at": "2026-10-19T04:43:26Z",
+    "finished_at": "2026-10-19T05:00:09Z",
+    "source_query": "Every Notion page in workspace \"Riverstone Coffee\" visible to Joshua Mathew Siegman (Private and Shared sidebar sections; shared was empty)",
+    "mcp_server": "https://mcp.notion.com/mcp",
+    "items_new": [
+      "weekly-ops-meeting-oct-13_54a59554",
+      "holiday-blend-launch-plan_edf7ac4a",
+      "storefront-launch-checklist_96075c06",
+      "brand-voice-guide_ce216a41",
+      "barista-training-plan_4be20d14",
+      "wholesale-pricing-2026_e3f75e0f",
+      "roast-profile-ethiopia-yirgacheffe_68f890b0",
+      "beacon-holiday-market-booth-plan_bd365b6d",
+      "green-coffee-supplier-directory_05e72d93",
+      "weekly-ops-meeting-oct-6_e7946371"
+    ],
+    "items_updated": [],
+    "item_count": 10,
+    "notes": "Workspace keyword search returns nothing for a wildcard, so pages were enumerated from the sidebar listings. All 10 pages are top-level with no child pages or databases. fetch returns no created_time, created_by or last_edited_by."
+  }
+]

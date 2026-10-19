@@ -1,0 +1,11 @@
+[
+  {
+    "id": "14b7bc6a-6e04-4a53-b5cd-88e8b3b7e3eb",
+    "author": {
+      "name": "Joshua Mathew Siegman",
+      "email": null
+    },
+    "body": "Marcus Lee found it: the espresso grind variant was created without a price, so the cart falls back to 0. He's adding a check that blocks any variant with no price from being saved. Dana Whitfield will retest on the test site after the fix.",
+    "created_at": "2026-10-19T03:26:25.601Z"
+  }
+]

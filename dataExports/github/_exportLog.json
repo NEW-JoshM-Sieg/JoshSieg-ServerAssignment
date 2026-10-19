@@ -1,0 +1,24 @@
+[
+  {
+    "export_run_id": "2026-10-19_04-43-26_github",
+    "started_at": "2026-10-19T04:43:26Z",
+    "finished_at": "2026-10-19T05:00:09Z",
+    "source_query": "All GitHub repositories owned by NEW-JoshM-Sieg except JoshSieg-ServerAssignment, with README, all issues and pull requests (any state) and up to 20 recent commits on the default branch",
+    "mcp_server": "https://api.githubcopilot.com/mcp/",
+    "items_new": [
+      "new-joshm-sieg__inventory-sync",
+      "new-joshm-sieg__wholesale-order-portal",
+      "new-joshm-sieg__shipping-rate-calculator",
+      "new-joshm-sieg__email-templates",
+      "new-joshm-sieg__storefront-web",
+      "new-joshm-sieg__brew-guides",
+      "new-joshm-sieg__holiday-blend-landing",
+      "new-joshm-sieg__subscription-api",
+      "new-joshm-sieg__roast-profile-logger",
+      "new-joshm-sieg__barista-training"
+    ],
+    "items_updated": [],
+    "item_count": 10,
+    "notes": "No repository has pull requests. The server returned no topics, license, homepage, owner type, issue comment counts or closed_at; issue html_url is built from the repo URL and issue number."
+  }
+]

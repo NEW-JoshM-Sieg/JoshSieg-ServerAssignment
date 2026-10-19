@@ -1,0 +1,49 @@
+{
+  "message_id": "1a1525be60d760d7",
+  "thread_id": "1a1525be60d760d7",
+  "subject": "Notes from today's ops meeting",
+  "from": {
+    "name": null,
+    "email": "danawhitfield12321@gmail.com"
+  },
+  "to": [
+    {
+      "name": null,
+      "email": "joshmsiegman@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [],
+  "date_raw": null,
+  "received_at": "2026-10-19T04:11:45Z",
+  "labels": [
+    "CATEGORY_PERSONAL",
+    "INBOX"
+  ],
+  "snippet": "Hi, Summary of today&#39;s ops meeting: - Holiday Blend roast tests: profile B (light-medium, 11:30 total) was the clear favorite. - Storefront launch still on track for November 10. - Corner Table",
+  "is_unread": false,
+  "has_attachments": false,
+  "attachments": [],
+  "size_estimate_bytes": 7930,
+  "web_url": "https://mail.google.com/mail/u/0/#all/1a1525be60d760d7",
+  "extra": {
+    "history_id": "3692",
+    "internal_date": "1792383105000",
+    "view_url": "https://mail.google.com/mail/?authuser=joshmsiegman@gmail.com#all/thread-f:1879449919095791831|msg-f:1879449919095791831"
+  },
+  "_export": {
+    "schema_version": "1.1",
+    "service": "gmail",
+    "source_id": "1a1525be60d760d7",
+    "first_exported_at": "2026-10-19T04:43:25Z",
+    "exported_at": "2026-10-19T05:00:51Z",
+    "export_run_id": "2026-10-19_04-43-25_gmail",
+    "source_query": "Gmail messages with the INBOX label received after 2026-10-12 (last 7 days), excluding account security, login and OAuth/sign-in notices (user decision)",
+    "mcp_server": "claude.ai Gmail connector (Anthropic)",
+    "mcp_tools_used": [
+      "search_threads",
+      "get_message"
+    ]
+  }
+}

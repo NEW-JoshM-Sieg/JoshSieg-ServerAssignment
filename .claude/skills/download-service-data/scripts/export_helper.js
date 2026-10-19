@@ -30,6 +30,7 @@ const C = require('./common');
 const ROOT = path.resolve(__dirname, '../../../..');
 const EXPORTS = path.join(process.env.DATA_EXPORTS_DIR || path.join(ROOT, 'dataExports'));
 
+const VERBATIM_FILES = new Set(['body.html']);
 const LIST_FIELDS = new Set(['to', 'cc', 'bcc', 'reply_to', 'labels', 'attachments', 'topics', 'child_pages']);
 const OBJECT_FIELDS = new Set(['extra', 'properties']);
 
@@ -132,6 +133,7 @@ function main() {
       if (content === null || content === undefined) continue;
       const target = path.join(dir, fname);
       if (fname.endsWith('.json')) writeJson(target, content);
+      else if (VERBATIM_FILES.has(fname)) fs.writeFileSync(target, String(content), 'utf8'); // spec 4: exactly as received
       else fs.writeFileSync(target, normalizeText(content).replace(/\n?$/, '\n'), 'utf8');
     }
   }

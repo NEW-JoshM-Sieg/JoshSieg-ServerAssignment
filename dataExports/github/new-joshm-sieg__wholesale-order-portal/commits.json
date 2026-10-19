@@ -1,0 +1,24 @@
+[
+  {
+    "sha": "3fae11ff030ef608423102cc448772bef9f74c4d",
+    "message": "Add wholesale portal README and pricing tiers",
+    "author": {
+      "name": "NEW-JoshM-Sieg",
+      "email": "joshmsiegman@gmail.com",
+      "login": "NEW-JoshM-Sieg"
+    },
+    "authored_at": "2026-10-19T03:40:10Z",
+    "html_url": "https://github.com/NEW-JoshM-Sieg/wholesale-order-portal/commit/3fae11ff030ef608423102cc448772bef9f74c4d"
+  },
+  {
+    "sha": "4cdaf9a6a3271c36428f7b7dcb81fa1ec98d7b95",
+    "message": "Initial commit",
+    "author": {
+      "name": "NEW-JoshM-Sieg",
+      "email": "joshmsiegman@gmail.com",
+      "login": "NEW-JoshM-Sieg"
+    },
+    "authored_at": "2026-10-19T03:38:38Z",
+    "html_url": "https://github.com/NEW-JoshM-Sieg/wholesale-order-portal/commit/4cdaf9a6a3271c36428f7b7dcb81fa1ec98d7b95"
+  }
+]

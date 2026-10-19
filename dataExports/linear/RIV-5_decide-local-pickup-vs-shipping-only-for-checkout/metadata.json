@@ -1,0 +1,84 @@
+{
+  "issue_id": "e6ceef85-e6b8-4930-8f3c-3d22e7a967a3",
+  "identifier": "RIV-5",
+  "title": "Decide local pickup vs shipping-only for checkout",
+  "url": "https://linear.app/joshmathewsiegman/issue/RIV-5/decide-local-pickup-vs-shipping-only-for-checkout",
+  "team": {
+    "name": "Riverstone",
+    "key": "RIV"
+  },
+  "project": "Storefront Launch",
+  "state": {
+    "name": "Todo",
+    "type": "unstarted"
+  },
+  "priority": 1,
+  "priority_label": "Urgent",
+  "assignee": {
+    "name": "Joshua Mathew Siegman",
+    "email": null
+  },
+  "creator": {
+    "name": "Joshua Mathew Siegman",
+    "email": null
+  },
+  "labels": [
+    "storefront"
+  ],
+  "estimate": null,
+  "due_date": "2026-10-22",
+  "cycle": null,
+  "parent_identifier": null,
+  "created_at": "2026-10-19T03:25:52Z",
+  "updated_at": "2026-10-19T03:25:52Z",
+  "completed_at": null,
+  "extra": {
+    "git_branch_name": "joshmsiegman/riv-5-decide-local-pickup-vs-shipping-only-for-checkout",
+    "archived_at": null,
+    "started_at": null,
+    "canceled_at": null,
+    "sla_started_at": null,
+    "sla_medium_risk_at": null,
+    "sla_high_risk_at": null,
+    "sla_breaches_at": null,
+    "attachments": [],
+    "documents": [],
+    "state_history": [
+      {
+        "state": {
+          "id": "ec56ea53-5453-4ba2-b604-22710b5bdfb6",
+          "name": "Todo",
+          "type": "unstarted"
+        },
+        "startedAt": "2026-10-19T03:25:52.037Z",
+        "endedAt": null
+      }
+    ],
+    "created_by_id": "6ebc05f2-e5a8-493f-9dee-666314a5f236",
+    "assignee_id": "6ebc05f2-e5a8-493f-9dee-666314a5f236",
+    "project_id": "64d6a4b9-d3eb-4994-9cef-a2cefc04d7b8",
+    "team_id": "30a83ca7-4e6f-40ab-a54f-5be0967a1ff3",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    }
+  },
+  "_export": {
+    "schema_version": "1.1",
+    "service": "linear",
+    "source_id": "e6ceef85-e6b8-4930-8f3c-3d22e7a967a3",
+    "first_exported_at": "2026-10-19T04:43:26Z",
+    "exported_at": "2026-10-19T05:00:09Z",
+    "export_run_id": "2026-10-19_04-43-26_linear",
+    "source_query": "All non-archived Linear issues in team Riverstone (RIV), any state",
+    "mcp_server": "https://mcp.linear.app/mcp",
+    "mcp_tools_used": [
+      "list_teams",
+      "list_issues",
+      "get_issue",
+      "list_comments"
+    ]
+  }
+}

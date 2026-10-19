@@ -1,0 +1,40 @@
+[
+  {
+    "number": 2,
+    "title": "Compute tier automatically from standing order volume",
+    "state": "OPEN",
+    "is_pull_request": false,
+    "author": {
+      "name": null,
+      "email": null,
+      "login": "NEW-JoshM-Sieg"
+    },
+    "labels": [],
+    "assignees": [],
+    "body": "Tiers are currently set by hand in `accounts.json`. The portal should work out the tier from `standing_order_lb` and `config/tiers.json`, so a change like Corner Table Cafe's gets the right price automatically.",
+    "comments_count": null,
+    "created_at": "2026-10-19T03:40:38Z",
+    "updated_at": "2026-10-19T03:40:38Z",
+    "closed_at": null,
+    "html_url": "https://github.com/NEW-JoshM-Sieg/wholesale-order-portal/issues/2"
+  },
+  {
+    "number": 1,
+    "title": "Move Corner Table Cafe to tier 2 pricing (20 lb standing order)",
+    "state": "OPEN",
+    "is_pull_request": false,
+    "author": {
+      "name": null,
+      "email": null,
+      "login": "NEW-JoshM-Sieg"
+    },
+    "labels": [],
+    "assignees": [],
+    "body": "Elena Ortiz at Corner Table Cafe is increasing her standing order from 10 lb to **20 lb** of house espresso every two weeks, starting in November. That moves the account from tier 1 ($11.50/lb) to **tier 2 ($10.50/lb)**.\n\n- [ ] Wait for the owner's OK (Linear RIV-8)\n- [ ] Update `config/accounts.json`: `standing_order_lb: 20`, `tier: 2`\n- [ ] Dana Whitfield emails Elena the confirmation\n- [ ] Add Holiday Blend for December if the allocation is approved",
+    "comments_count": null,
+    "created_at": "2026-10-19T03:40:37Z",
+    "updated_at": "2026-10-19T03:40:37Z",
+    "closed_at": null,
+    "html_url": "https://github.com/NEW-JoshM-Sieg/wholesale-order-portal/issues/1"
+  }
+]

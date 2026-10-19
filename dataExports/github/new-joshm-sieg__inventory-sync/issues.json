@@ -1,0 +1,40 @@
+[
+  {
+    "number": 2,
+    "title": "Subtract roasted batches from green inventory",
+    "state": "OPEN",
+    "is_pull_request": false,
+    "author": {
+      "name": null,
+      "email": null,
+      "login": "NEW-JoshM-Sieg"
+    },
+    "labels": [],
+    "assignees": [],
+    "body": "Right now the script only adds stock. It should also read the roast logs from `roast-profile-logger` (batch kg) and subtract them, so the LOW warnings are accurate.",
+    "comments_count": null,
+    "created_at": "2026-10-19T03:40:34Z",
+    "updated_at": "2026-10-19T03:40:34Z",
+    "closed_at": null,
+    "html_url": "https://github.com/NEW-JoshM-Sieg/inventory-sync/issues/2"
+  },
+  {
+    "number": 1,
+    "title": "Import Highland Imports Oct 28 shipment when it lands",
+    "state": "OPEN",
+    "is_pull_request": false,
+    "author": {
+      "name": null,
+      "email": null,
+      "login": "NEW-JoshM-Sieg"
+    },
+    "labels": [],
+    "assignees": [],
+    "body": "Tom Becker confirmed 6 bags Yirgacheffe + 4 bags Huila, shipping Oct 28 and arriving Nov 3. Run `sync.py shipments/highland-2026-10-28.json` on arrival and check the weights against the delivery note.",
+    "comments_count": null,
+    "created_at": "2026-10-19T03:40:32Z",
+    "updated_at": "2026-10-19T03:40:32Z",
+    "closed_at": null,
+    "html_url": "https://github.com/NEW-JoshM-Sieg/inventory-sync/issues/1"
+  }
+]

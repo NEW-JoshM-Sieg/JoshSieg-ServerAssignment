@@ -1,0 +1,40 @@
+[
+  {
+    "number": 2,
+    "title": "Add holiday market refresher section",
+    "state": "OPEN",
+    "is_pull_request": false,
+    "author": {
+      "name": null,
+      "email": null,
+      "login": "NEW-JoshM-Sieg"
+    },
+    "labels": [],
+    "assignees": [],
+    "body": "Before the Beacon Holiday Market (Dec 12-13), anyone staffing the booth should review pour-over on the travel setup and the Holiday Blend talking points. Dana Whitfield will sign off on it. Add a short section to `checklist.md` and 3 more quiz questions.",
+    "comments_count": null,
+    "created_at": "2026-10-19T03:40:50Z",
+    "updated_at": "2026-10-19T03:40:50Z",
+    "closed_at": null,
+    "html_url": "https://github.com/NEW-JoshM-Sieg/barista-training/issues/2"
+  },
+  {
+    "number": 1,
+    "title": "Quiz should shuffle answer options",
+    "state": "OPEN",
+    "is_pull_request": false,
+    "author": {
+      "name": null,
+      "email": null,
+      "login": "NEW-JoshM-Sieg"
+    },
+    "labels": [],
+    "assignees": [],
+    "body": "Trainees have figured out the answer pattern. `quiz.py` should shuffle the options for each question and keep track of which one is correct.",
+    "comments_count": null,
+    "created_at": "2026-10-19T03:23:37Z",
+    "updated_at": "2026-10-19T03:23:37Z",
+    "closed_at": null,
+    "html_url": "https://github.com/NEW-JoshM-Sieg/barista-training/issues/1"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "sha": "08259b953480d29b13cd2991fc7dbc12d429cf25",
+    "message": "Add barista training checklist and quiz",
+    "author": {
+      "name": "NEW-JoshM-Sieg",
+      "email": "joshmsiegman@gmail.com",
+      "login": "NEW-JoshM-Sieg"
+    },
+    "authored_at": "2026-10-19T03:23:08Z",
+    "html_url": "https://github.com/NEW-JoshM-Sieg/barista-training/commit/08259b953480d29b13cd2991fc7dbc12d429cf25"
+  },
+  {
+    "sha": "7a391d417717c73817edacc06b08da0e77fde571",
+    "message": "Initial commit",
+    "author": {
+      "name": "NEW-JoshM-Sieg",
+      "email": "joshmsiegman@gmail.com",
+      "login": "NEW-JoshM-Sieg"
+    },
+    "authored_at": "2026-10-19T03:22:13Z",
+    "html_url": "https://github.com/NEW-JoshM-Sieg/barista-training/commit/7a391d417717c73817edacc06b08da0e77fde571"
+  }
+]

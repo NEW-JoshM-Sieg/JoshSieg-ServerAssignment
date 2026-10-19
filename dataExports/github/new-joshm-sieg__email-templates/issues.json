@@ -1,0 +1,40 @@
+[
+  {
+    "number": 2,
+    "title": "Show pickup details in order confirmation (if pickup is offered)",
+    "state": "OPEN",
+    "is_pull_request": false,
+    "author": {
+      "name": null,
+      "email": null,
+      "login": "NEW-JoshM-Sieg"
+    },
+    "labels": [],
+    "assignees": [],
+    "body": "If we offer local pickup at checkout (Linear RIV-5), the order confirmation needs to show the pickup time slot and the roastery address instead of the shipping line.",
+    "comments_count": null,
+    "created_at": "2026-10-19T03:40:48Z",
+    "updated_at": "2026-10-19T03:40:48Z",
+    "closed_at": null,
+    "html_url": "https://github.com/NEW-JoshM-Sieg/email-templates/issues/2"
+  },
+  {
+    "number": 1,
+    "title": "Add header art to launch announcement",
+    "state": "OPEN",
+    "is_pull_request": false,
+    "author": {
+      "name": null,
+      "email": null,
+      "login": "NEW-JoshM-Sieg"
+    },
+    "labels": [],
+    "assignees": [],
+    "body": "Priya Raman is sending the header illustration for the Nov 10 launch email. Add it as a hosted image with alt text, and test it in Gmail and Outlook before Dana Whitfield sends it.",
+    "comments_count": null,
+    "created_at": "2026-10-19T03:40:47Z",
+    "updated_at": "2026-10-19T03:40:47Z",
+    "closed_at": null,
+    "html_url": "https://github.com/NEW-JoshM-Sieg/email-templates/issues/1"
+  }
+]

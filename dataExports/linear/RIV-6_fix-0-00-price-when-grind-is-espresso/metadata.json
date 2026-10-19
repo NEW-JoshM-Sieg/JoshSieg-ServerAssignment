@@ -1,0 +1,88 @@
+{
+  "issue_id": "baa3d196-f6ea-4eaa-bef6-d46fddc88961",
+  "identifier": "RIV-6",
+  "title": "Fix $0.00 price when grind is espresso",
+  "url": "https://linear.app/joshmathewsiegman/issue/RIV-6/fix-dollar000-price-when-grind-is-espresso",
+  "team": {
+    "name": "Riverstone",
+    "key": "RIV"
+  },
+  "project": "Storefront Launch",
+  "state": {
+    "name": "In Progress",
+    "type": "started"
+  },
+  "priority": 1,
+  "priority_label": "Urgent",
+  "assignee": null,
+  "creator": {
+    "name": "Joshua Mathew Siegman",
+    "email": null
+  },
+  "labels": [
+    "storefront",
+    "Bug"
+  ],
+  "estimate": null,
+  "due_date": "2026-10-23",
+  "cycle": null,
+  "parent_identifier": null,
+  "created_at": "2026-10-19T03:25:53Z",
+  "updated_at": "2026-10-19T03:41:03Z",
+  "completed_at": null,
+  "extra": {
+    "git_branch_name": "joshmsiegman/riv-6-fix-000-price-when-grind-is-espresso",
+    "archived_at": null,
+    "started_at": "2026-10-19T03:25:53.151Z",
+    "canceled_at": null,
+    "sla_started_at": null,
+    "sla_medium_risk_at": null,
+    "sla_high_risk_at": null,
+    "sla_breaches_at": null,
+    "attachments": [
+      {
+        "id": "fc6a03f4-4dac-4799-80c9-409e25992435",
+        "title": "storefront-web#1: Price shows $0.00 when grind is set to espresso",
+        "subtitle": "",
+        "url": "https://github.com/NEW-JoshM-Sieg/storefront-web/issues/1"
+      }
+    ],
+    "documents": [],
+    "state_history": [
+      {
+        "state": {
+          "id": "6b9b68c9-c2f3-4696-8671-3e6bc61482b5",
+          "name": "In Progress",
+          "type": "started"
+        },
+        "startedAt": "2026-10-19T03:25:53.085Z",
+        "endedAt": null
+      }
+    ],
+    "created_by_id": "6ebc05f2-e5a8-493f-9dee-666314a5f236",
+    "project_id": "64d6a4b9-d3eb-4994-9cef-a2cefc04d7b8",
+    "team_id": "30a83ca7-4e6f-40ab-a54f-5be0967a1ff3",
+    "relations": {
+      "blocks": [],
+      "blockedBy": [],
+      "relatedTo": [],
+      "duplicateOf": null
+    }
+  },
+  "_export": {
+    "schema_version": "1.1",
+    "service": "linear",
+    "source_id": "baa3d196-f6ea-4eaa-bef6-d46fddc88961",
+    "first_exported_at": "2026-10-19T04:43:26Z",
+    "exported_at": "2026-10-19T05:00:09Z",
+    "export_run_id": "2026-10-19_04-43-26_linear",
+    "source_query": "All non-archived Linear issues in team Riverstone (RIV), any state",
+    "mcp_server": "https://mcp.linear.app/mcp",
+    "mcp_tools_used": [
+      "list_teams",
+      "list_issues",
+      "get_issue",
+      "list_comments"
+    ]
+  }
+}

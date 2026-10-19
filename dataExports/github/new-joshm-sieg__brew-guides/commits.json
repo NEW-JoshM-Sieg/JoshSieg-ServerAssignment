@@ -1,0 +1,24 @@
+[
+  {
+    "sha": "87c0f4875820c2cc97e5dabe90dbbd49bc14887c",
+    "message": "Add pour-over, French press and espresso guides",
+    "author": {
+      "name": "NEW-JoshM-Sieg",
+      "email": "joshmsiegman@gmail.com",
+      "login": "NEW-JoshM-Sieg"
+    },
+    "authored_at": "2026-10-19T03:23:06Z",
+    "html_url": "https://github.com/NEW-JoshM-Sieg/brew-guides/commit/87c0f4875820c2cc97e5dabe90dbbd49bc14887c"
+  },
+  {
+    "sha": "9f3d71c86c6204713040f25da6cf10a5020dd70b",
+    "message": "Initial commit",
+    "author": {
+      "name": "NEW-JoshM-Sieg",
+      "email": "joshmsiegman@gmail.com",
+      "login": "NEW-JoshM-Sieg"
+    },
+    "authored_at": "2026-10-19T03:22:10Z",
+    "html_url": "https://github.com/NEW-JoshM-Sieg/brew-guides/commit/9f3d71c86c6204713040f25da6cf10a5020dd70b"
+  }
+]

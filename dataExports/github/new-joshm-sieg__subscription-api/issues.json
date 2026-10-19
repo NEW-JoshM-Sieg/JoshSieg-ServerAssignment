@@ -1,0 +1,40 @@
+[
+  {
+    "number": 2,
+    "title": "Allow pausing a subscription over the holidays",
+    "state": "OPEN",
+    "is_pull_request": false,
+    "author": {
+      "name": null,
+      "email": null,
+      "login": "NEW-JoshM-Sieg"
+    },
+    "labels": [],
+    "assignees": [],
+    "body": "Customers have asked about pausing deliveries while they travel in December. Add `POST /subscriptions/{id}/pause` with a resume date.",
+    "comments_count": null,
+    "created_at": "2026-10-19T03:40:41Z",
+    "updated_at": "2026-10-19T03:40:41Z",
+    "closed_at": null,
+    "html_url": "https://github.com/NEW-JoshM-Sieg/subscription-api/issues/2"
+  },
+  {
+    "number": 1,
+    "title": "Persist subscriptions in a database",
+    "state": "OPEN",
+    "is_pull_request": false,
+    "author": {
+      "name": null,
+      "email": null,
+      "login": "NEW-JoshM-Sieg"
+    },
+    "labels": [],
+    "assignees": [],
+    "body": "Subscriptions are only kept in memory, so they disappear when the server restarts. Pick SQLite for now and add a `subscriptions` table. Marcus Lee will pick this up after the Nov 10 storefront launch.",
+    "comments_count": null,
+    "created_at": "2026-10-19T03:40:40Z",
+    "updated_at": "2026-10-19T03:40:40Z",
+    "closed_at": null,
+    "html_url": "https://github.com/NEW-JoshM-Sieg/subscription-api/issues/1"
+  }
+]

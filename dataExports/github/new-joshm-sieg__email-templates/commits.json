@@ -1,0 +1,24 @@
+[
+  {
+    "sha": "8508a2591d0d7d12b3897f05f6957494f5fd1258",
+    "message": "Add order confirmation and launch announcement templates",
+    "author": {
+      "name": "NEW-JoshM-Sieg",
+      "email": "joshmsiegman@gmail.com",
+      "login": "NEW-JoshM-Sieg"
+    },
+    "authored_at": "2026-10-19T03:40:16Z",
+    "html_url": "https://github.com/NEW-JoshM-Sieg/email-templates/commit/8508a2591d0d7d12b3897f05f6957494f5fd1258"
+  },
+  {
+    "sha": "c17060f50ede3f4f7dd30b36256690c601093cfb",
+    "message": "Initial commit",
+    "author": {
+      "name": "NEW-JoshM-Sieg",
+      "email": "joshmsiegman@gmail.com",
+      "login": "NEW-JoshM-Sieg"
+    },
+    "authored_at": "2026-10-19T03:38:49Z",
+    "html_url": "https://github.com/NEW-JoshM-Sieg/email-templates/commit/c17060f50ede3f4f7dd30b36256690c601093cfb"
+  }
+]

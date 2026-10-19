@@ -1,0 +1,26 @@
+[
+  {
+    "export_run_id": "2026-10-19_04-43-26_linear",
+    "started_at": "2026-10-19T04:43:26Z",
+    "finished_at": "2026-10-19T05:00:09Z",
+    "source_query": "All non-archived Linear issues in team Riverstone (RIV), any state",
+    "mcp_server": "https://mcp.linear.app/mcp",
+    "items_new": [
+      "RIV-6_fix-0-00-price-when-grind-is-espresso",
+      "RIV-16_offer-holiday-blend-to-wholesale-accounts-for-dece",
+      "RIV-9_schedule-roaster-maintenance-every-6-months",
+      "RIV-8_confirm-corner-table-cafe-tier-2-wholesale",
+      "RIV-15_write-storefront-launch-announcement-email",
+      "RIV-14_finalize-holiday-blend-roast-profile-b",
+      "RIV-13_approve-highland-imports-invoice-for-green-coffee",
+      "RIV-12_build-holiday-blend-product-page",
+      "RIV-11_staff-beacon-holiday-market-booth",
+      "RIV-10_order-12-oz-bags",
+      "RIV-7_approve-holiday-blend-label-red-vs-navy",
+      "RIV-5_decide-local-pickup-vs-shipping-only-for-checkout"
+    ],
+    "items_updated": [],
+    "item_count": 12,
+    "notes": "Skipped archived onboarding issues by user decision: RIV-1 \"Get familiar with Linear\", RIV-3 \"Import your data\", RIV-2 \"Connect your tools\", RIV-4 \"Set up your teams\"."
+  }
+]

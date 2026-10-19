@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Checks everything in dataExports/ against localStorageFormats.md (schema 1.0).
+// Checks everything in dataExports/ against localStorageFormats.md (schema 1.1).
 // Usage: node .claude/skills/download-service-data/scripts/validate_exports.js [service ...]
 // Exit code 0 = no errors. Warnings do not fail the run.
 'use strict';

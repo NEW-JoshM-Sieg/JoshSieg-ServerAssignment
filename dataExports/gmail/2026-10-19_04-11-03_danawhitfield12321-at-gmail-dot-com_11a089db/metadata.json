@@ -1,0 +1,49 @@
+{
+  "message_id": "1a1525b411a089db",
+  "thread_id": "1a1525b411a089db",
+  "subject": "Bug on the storefront test site",
+  "from": {
+    "name": null,
+    "email": "danawhitfield12321@gmail.com"
+  },
+  "to": [
+    {
+      "name": null,
+      "email": "joshmsiegman@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [],
+  "date_raw": null,
+  "received_at": "2026-10-19T04:11:03Z",
+  "labels": [
+    "CATEGORY_PERSONAL",
+    "INBOX"
+  ],
+  "snippet": "Hi, I was testing the storefront and when I add the Holiday Blend to the cart and change the grind to &quot;espresso&quot;, the price drops to $0.00. Screenshot is in the GitHub issue Marcus opened. He",
+  "is_unread": false,
+  "has_attachments": false,
+  "attachments": [],
+  "size_estimate_bytes": 7719,
+  "web_url": "https://mail.google.com/mail/u/0/#all/1a1525b411a089db",
+  "extra": {
+    "history_id": "3607",
+    "internal_date": "1792383063000",
+    "view_url": "https://mail.google.com/mail/?authuser=joshmsiegman@gmail.com#all/thread-f:1879449874817124827|msg-f:1879449874817124827"
+  },
+  "_export": {
+    "schema_version": "1.1",
+    "service": "gmail",
+    "source_id": "1a1525b411a089db",
+    "first_exported_at": "2026-10-19T04:43:25Z",
+    "exported_at": "2026-10-19T05:00:51Z",
+    "export_run_id": "2026-10-19_04-43-25_gmail",
+    "source_query": "Gmail messages with the INBOX label received after 2026-10-12 (last 7 days), excluding account security, login and OAuth/sign-in notices (user decision)",
+    "mcp_server": "claude.ai Gmail connector (Anthropic)",
+    "mcp_tools_used": [
+      "search_threads",
+      "get_message"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "sha": "0c88dfd0481ea5eb6f874e9066ca131e2cf2eacc",
+    "message": "Add subscription API skeleton",
+    "author": {
+      "name": "NEW-JoshM-Sieg",
+      "email": "joshmsiegman@gmail.com",
+      "login": "NEW-JoshM-Sieg"
+    },
+    "authored_at": "2026-10-19T03:40:12Z",
+    "html_url": "https://github.com/NEW-JoshM-Sieg/subscription-api/commit/0c88dfd0481ea5eb6f874e9066ca131e2cf2eacc"
+  },
+  {
+    "sha": "1cdde4bfa346fa0f6dd5619391b75149404eef18",
+    "message": "Initial commit",
+    "author": {
+      "name": "NEW-JoshM-Sieg",
+      "email": "joshmsiegman@gmail.com",
+      "login": "NEW-JoshM-Sieg"
+    },
+    "authored_at": "2026-10-19T03:38:42Z",
+    "html_url": "https://github.com/NEW-JoshM-Sieg/subscription-api/commit/1cdde4bfa346fa0f6dd5619391b75149404eef18"
+  }
+]
