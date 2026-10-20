@@ -34,5 +34,35 @@
     "items_updated": [],
     "item_count": 2,
     "notes": "Incremental run: 2 inbox messages matched since the previous export; both saved. No existing messages re-downloaded."
+  },
+  {
+    "export_run_id": "2026-10-20_19-57-13_gmail",
+    "started_at": "2026-10-20T19:57:13Z",
+    "finished_at": "2026-10-20T19:59:10Z",
+    "source_query": "Gmail messages with the INBOX label received after the previous export (2026-10-19T19:24:32Z), excluding account security, login, verification-code and access-token notices, and messages containing passwords or other credentials",
+    "mcp_server": "claude.ai Gmail connector (Anthropic)",
+    "items_new": [
+      "2026-10-20_19-46-55_danawhitfield12321-at-gmail-dot-com_6af0639b",
+      "2026-10-20_16-41-06_danawhitfield12321-at-gmail-dot-com_6b57ff2d",
+      "2026-10-20_15-35-00_danawhitfield12321-at-gmail-dot-com_63ed6620",
+      "2026-10-20_19-12-52_team-at-mail-dot-notion-dot-so_92ae25d9",
+      "2026-10-20_03-06-17_no-reply-at-email-dot-claude-dot-com_acb1a775"
+    ],
+    "items_updated": [],
+    "item_count": 5,
+    "notes": "Incremental run: 9 inbox messages matched since the previous export; 5 saved. Skipped as account security/verification/token notices: 1a159ed747a18a47 \"[GitHub] A personal access token (classic) has been regenerated for your account\" from noreply@github.com; 1a159ec89102c3dc and 1a1559f97b15a639 \"[GitHub] Sudo email verification code\" from noreply@github.com. Skipped because the body contains passwords and this repository is public: 1a15a2ddc80109cb (subject and sender withheld). No existing messages re-downloaded."
+  },
+  {
+    "export_run_id": "2026-10-20_20-15-07_gmail",
+    "started_at": "2026-10-20T20:15:07Z",
+    "finished_at": "2026-10-20T20:15:38Z",
+    "source_query": "Gmail messages with the INBOX label received after the previous export (2026-10-20T19:57:13Z), excluding account security, login, verification-code and access-token notices, and messages containing passwords or other credentials",
+    "mcp_server": "claude.ai Gmail connector (Anthropic)",
+    "items_new": [
+      "2026-10-20_20-05-59_danawhitfield12321-at-gmail-dot-com_374a2428"
+    ],
+    "items_updated": [],
+    "item_count": 1,
+    "notes": "Incremental run: 1 inbox message matched since the previous export; saved. No existing messages re-downloaded."
   }
 ]

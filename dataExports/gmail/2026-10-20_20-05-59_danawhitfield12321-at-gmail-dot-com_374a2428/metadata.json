@@ -1,0 +1,50 @@
+{
+  "message_id": "1a15aebe374a2428",
+  "thread_id": "1a15aebe374a2428",
+  "subject": "Beacon market signage approved",
+  "from": {
+    "name": null,
+    "email": "danawhitfield12321@gmail.com"
+  },
+  "to": [
+    {
+      "name": null,
+      "email": "joshmsiegman@gmail.com"
+    }
+  ],
+  "cc": [],
+  "bcc": [],
+  "reply_to": [],
+  "date_raw": null,
+  "received_at": "2026-10-20T20:05:59Z",
+  "labels": [
+    "IMPORTANT",
+    "CATEGORY_PERSONAL",
+    "INBOX"
+  ],
+  "snippet": "Hi, Priya Raman finished the booth signage for the Beacon Holiday Market. It features the Holiday Blend and our QR code for preorders. Can you take a look before Thursday? Dana",
+  "is_unread": false,
+  "has_attachments": false,
+  "attachments": [],
+  "size_estimate_bytes": 7553,
+  "web_url": "https://mail.google.com/mail/u/0/#all/1a15aebe374a2428",
+  "extra": {
+    "history_id": "6305",
+    "internal_date": "1792526759000",
+    "view_url": "https://mail.google.com/mail/?authuser=joshmsiegman@gmail.com#all/thread-f:1879600551491675176|msg-f:1879600551491675176"
+  },
+  "_export": {
+    "schema_version": "1.1",
+    "service": "gmail",
+    "source_id": "1a15aebe374a2428",
+    "first_exported_at": "2026-10-20T20:15:07Z",
+    "exported_at": "2026-10-20T20:15:38Z",
+    "export_run_id": "2026-10-20_20-15-07_gmail",
+    "source_query": "Gmail messages with the INBOX label received after the previous export (2026-10-20T19:57:13Z), excluding account security, login, verification-code and access-token notices, and messages containing passwords or other credentials",
+    "mcp_server": "claude.ai Gmail connector (Anthropic)",
+    "mcp_tools_used": [
+      "search_threads",
+      "get_message"
+    ]
+  }
+}
